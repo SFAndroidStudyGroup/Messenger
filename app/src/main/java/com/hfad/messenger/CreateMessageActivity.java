@@ -8,6 +8,8 @@ import android.widget.EditText;
 
 public class CreateMessageActivity extends AppCompatActivity {
 
+    static public String EXTRA_MESSAGE = "message";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
